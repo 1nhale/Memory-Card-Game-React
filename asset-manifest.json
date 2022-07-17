@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/1nhale/Memory-Card-Game-React.git/static/css/main.525fbd12.chunk.css",
+    "main.js": "/1nhale/Memory-Card-Game-React.git/static/js/main.cb39e088.chunk.js",
+    "main.js.map": "/1nhale/Memory-Card-Game-React.git/static/js/main.cb39e088.chunk.js.map",
+    "runtime-main.js": "/1nhale/Memory-Card-Game-React.git/static/js/runtime-main.6ce6227d.js",
+    "runtime-main.js.map": "/1nhale/Memory-Card-Game-React.git/static/js/runtime-main.6ce6227d.js.map",
+    "static/js/2.ed2e3209.chunk.js": "/1nhale/Memory-Card-Game-React.git/static/js/2.ed2e3209.chunk.js",
+    "static/js/2.ed2e3209.chunk.js.map": "/1nhale/Memory-Card-Game-React.git/static/js/2.ed2e3209.chunk.js.map",
+    "index.html": "/1nhale/Memory-Card-Game-React.git/index.html",
+    "static/css/main.525fbd12.chunk.css.map": "/1nhale/Memory-Card-Game-React.git/static/css/main.525fbd12.chunk.css.map",
+    "static/js/2.ed2e3209.chunk.js.LICENSE.txt": "/1nhale/Memory-Card-Game-React.git/static/js/2.ed2e3209.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ce6227d.js",
+    "static/js/2.ed2e3209.chunk.js",
+    "static/css/main.525fbd12.chunk.css",
+    "static/js/main.cb39e088.chunk.js"
+  ]
+}
