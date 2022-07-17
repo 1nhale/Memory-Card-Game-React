@@ -21,32 +21,32 @@ function Cards(){
         { id: 8, img: '/img/nodejs.png', stat: "" }
     ].sort(() => Math.random() - 0.5))
 
-    const [last, setLast] = useState(-1)
+    const [prev, setPrev] = useState(-1)
 
     function check(current){
-        if(items[current].id === items[last].id){
+        if(items[current].id == items[prev].id){
             items[current].stat = "correct"
-            items[last].stat = "correct"
+            items[prev].stat = "correct"
             setItems([...items])
-            setLast(-1)
+            setPrev(-1)
         }else{
             items[current].stat = "wrong"
-            items[last].stat = "wrong"
+            items[prev].stat = "wrong"
             setItems([...items])
             setTimeout(() => {
                 items[current].stat = ""
-                items[last].stat = ""
+                items[prev].stat = ""
                 setItems([...items])
-                setLast(-1)
+                setPrev(-1)
             }, 1000)
         }
     }
 
     function handleClick(id){
-        if(last === -1){
+        if(prev === -1){
             items[id].stat = "active"
             setItems([...items])
-            setLast(id)
+            setPrev(id)
         }else{
             check(id)
         }
